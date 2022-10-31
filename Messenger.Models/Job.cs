@@ -48,21 +48,21 @@
         /// <summary>
         /// The "From" field in the e-mail
         /// </summary>
-        public string From { get; set; } = null;
+        public EmailUser? From { get; set; } = null;
         /// <summary>
         /// The "To" field in the e-mail. This should only
         /// be populated if the user wants to add fixed recipients,
         /// otherwise the "to" field should come from the data
         /// source
         /// </summary>
-        public List<string>? To { get; set; } = null;
+        public List<EmailUser>? To { get; set; } = null;
         /// <summary>
         /// The "CC" field in the e-mail. This should only
         /// be populated if the user wants to add fixed recipients,
         /// otherwise the "CC" field should come from the data
         /// source
         /// </summary>
-        public List<string>? CC { get; set; } = null;
+        public List<EmailUser>? CC { get; set; } = null;
         /// <summary>
         /// The "BCC" field in the e-mail. This should only
         /// be populated if the user wants to add fixed recipients,
@@ -71,7 +71,7 @@
         /// to log emails. Do not use CC, as BCC will not show up
         /// for the end user
         /// </summary>
-        public List<string>? BCC { get; set; } = null;
+        public List<EmailUser>? BCC { get; set; } = null;
         /// <summary>
         /// Files can be attachments or can be content in the
         /// e-mail body itself. If you want to have an image in
