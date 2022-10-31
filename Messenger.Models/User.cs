@@ -10,7 +10,7 @@ namespace Messenger.Models
     {
         public long Seq { get; set; }
         public string ID { get; set; }
-        public long EmployeeID { get; set; }
+        public long EmployeeSeq { get; set; }
         public string Email { get; set; }
         public string FirstName { get; set; }
         public string MiddleInit { get; set; }
