@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "Messenger.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Messenger.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Messenger.Models.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Messenger.Models/1.0.0": {
+      "type": "project",
+      "path": "../Messenger.Models/Messenger.Models.csproj",
+      "msbuildProject": "../Messenger.Models/Messenger.Models.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "Messenger.Models >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Dylan\\.nuget\\packages\\": {},
@@ -40,7 +59,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Dylan\\Projects\\Messenger\\Messenger.Models\\Messenger.Models.csproj": {
+              "projectPath": "C:\\Users\\Dylan\\Projects\\Messenger\\Messenger.Models\\Messenger.Models.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

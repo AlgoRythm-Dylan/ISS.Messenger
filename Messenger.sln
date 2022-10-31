@@ -3,7 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32901.215
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Messenger", "Messenger\Messenger.csproj", "{7C17E566-BD47-4C6E-9DF6-1FDD066EFB01}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Messenger", "Messenger\Messenger.csproj", "{7C17E566-BD47-4C6E-9DF6-1FDD066EFB01}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MessengerAPI", "MessengerAPI\MessengerAPI.csproj", "{AA3BE7A2-E6F2-4AC1-B9F6-6F5D17D82E5F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Messenger.Models", "Messenger.Models\Messenger.Models.csproj", "{6862A91B-6A0D-4406-9A83-503FF77FA1D5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Messenger.Services", "Messenger.Services\Messenger.Services.csproj", "{A8F7BA91-DE94-43C1-AC43-8646647F4C35}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Messenger.Scheduler", "Messenger.Scheduler\Messenger.Scheduler.csproj", "{F35404A3-8EEC-431C-A8C4-4DDE921C1B84}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Messenger.Tests", "Messenger.Tests\Messenger.Tests.csproj", "{D4CD6D9A-A65B-464B-BC9B-C9D88BB01AAC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +25,26 @@ Global
 		{7C17E566-BD47-4C6E-9DF6-1FDD066EFB01}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7C17E566-BD47-4C6E-9DF6-1FDD066EFB01}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7C17E566-BD47-4C6E-9DF6-1FDD066EFB01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA3BE7A2-E6F2-4AC1-B9F6-6F5D17D82E5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA3BE7A2-E6F2-4AC1-B9F6-6F5D17D82E5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA3BE7A2-E6F2-4AC1-B9F6-6F5D17D82E5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA3BE7A2-E6F2-4AC1-B9F6-6F5D17D82E5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6862A91B-6A0D-4406-9A83-503FF77FA1D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6862A91B-6A0D-4406-9A83-503FF77FA1D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6862A91B-6A0D-4406-9A83-503FF77FA1D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6862A91B-6A0D-4406-9A83-503FF77FA1D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8F7BA91-DE94-43C1-AC43-8646647F4C35}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8F7BA91-DE94-43C1-AC43-8646647F4C35}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8F7BA91-DE94-43C1-AC43-8646647F4C35}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8F7BA91-DE94-43C1-AC43-8646647F4C35}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F35404A3-8EEC-431C-A8C4-4DDE921C1B84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F35404A3-8EEC-431C-A8C4-4DDE921C1B84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F35404A3-8EEC-431C-A8C4-4DDE921C1B84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F35404A3-8EEC-431C-A8C4-4DDE921C1B84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4CD6D9A-A65B-464B-BC9B-C9D88BB01AAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4CD6D9A-A65B-464B-BC9B-C9D88BB01AAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4CD6D9A-A65B-464B-BC9B-C9D88BB01AAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4CD6D9A-A65B-464B-BC9B-C9D88BB01AAC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

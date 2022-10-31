@@ -1,0 +1,34 @@
+﻿@page
+@model Messenger.Pages.EditorModel
+@section Styles {
+    <link href="./vs/editor/editor.main.css" type="text/css" rel="stylesheet" />
+    <style>
+        html, body{
+            height: 100%;
+            margin: 0px;
+        }
+        #editor-box{
+            height: 100%;
+            width: 100%;
+        }
+    </style>
+}
+
+<div id="editor-box">
+
+</div>
+@section Scripts {
+    <script src="./vs/loader.js"></script>
+    <script src="./vs/editor/editor.main.nls.js"></script>
+    <script src="./vs/editor/editor.main.js"></script>
+
+    <script>
+        addEventListener("load", e => {
+            monaco.editor.create(document.getElementById("editor-box"), {
+                value: "<h1>Hello {{handlebars}}</h1>",
+                language: "handlebars"
+            })
+        })
+    </script>
+
+}

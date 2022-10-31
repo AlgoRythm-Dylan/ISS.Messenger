@@ -15,16 +15,12 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Dylan\Projects\Messenger\Messenger
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Dylan/Projects/Messenger/Messenger/Pages/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+[C:/Users/Dylan/Projects/Messenger/Messenger/Pages/Editor.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWRpdG9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Dylan/Projects/Messenger/Messenger/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Dylan/Projects/Messenger/Messenger/Pages/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Dylan/Projects/Messenger/Messenger/Pages/Shared/_ValidationScriptsPartial.cshtml]
