@@ -17,7 +17,7 @@ namespace Messenger.Models
         public string LastName { get; set; }
         public string PrefFirstName { get; set; }
         public string Name { get; set; }
-        public string ActiveInt { get; set; }
+        public string ActiveInd { get; set; }
         public long EnployeeSeq { get; set; }
         public string Location { get; set; }
         public string Phone { get; set; }
