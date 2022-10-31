@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Messenger.Models
+﻿namespace Messenger.Models
 {
     public class Email
     {
@@ -14,5 +8,6 @@ namespace Messenger.Models
         public List<string> BCC { get; set; } = new List<string>();
         public string? Subject { get; set; }
         public string? Body { get; set; }
+        public List<File> Files { get; set; } = new List<File>();
     }
 }

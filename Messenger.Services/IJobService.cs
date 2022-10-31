@@ -7,7 +7,7 @@ using Messenger.Models;
 
 namespace Messenger.Services
 {
-    public interface ITemplateService
+    public interface IJobService
     {
         /// <summary>
         /// Get a template given a template ID, and optionally, a version
@@ -17,6 +17,6 @@ namespace Messenger.Services
         /// <param name="version">Optional version number of template
         /// If null, returns latest version</param>
         /// <returns></returns>
-        public Template? Get(long seq, long? version = null);
+        public Job? Get(long seq, long? version = null);
     }
 }
